@@ -5,13 +5,52 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="头文件">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="资源文件">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="源文件\词法分析">
+      <UniqueIdentifier>{36ba1cae-3959-4d14-963d-8bd56c351254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\语法分析">
+      <UniqueIdentifier>{fb0d8b61-83ee-4fb0-8a86-c976c4be8d0b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Lexer.h">
+      <Filter>源文件\词法分析</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Rule.h">
+      <Filter>源文件\语法分析</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Automata.h">
+      <Filter>源文件\语法分析</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ParsingTable.h">
+      <Filter>源文件\语法分析</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Parser.h">
+      <Filter>源文件\语法分析</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Lexer.cpp">
+      <Filter>源文件\词法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Rule.cpp">
+      <Filter>源文件\语法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Automata.cpp">
+      <Filter>源文件\语法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ParsingTable.cpp">
+      <Filter>源文件\语法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Parser.cpp">
+      <Filter>源文件\语法分析</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

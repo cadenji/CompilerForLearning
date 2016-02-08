@@ -146,6 +146,19 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="src\Automata.h" />
+    <ClInclude Include="src\Lexer.h" />
+    <ClInclude Include="src\Parser.h" />
+    <ClInclude Include="src\ParsingTable.h" />
+    <ClInclude Include="src\Rule.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Automata.cpp" />
+    <ClCompile Include="src\Lexer.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\Parser.cpp" />
+    <ClCompile Include="src\ParsingTable.cpp" />
+    <ClCompile Include="src\Rule.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
