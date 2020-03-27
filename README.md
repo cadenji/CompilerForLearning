@@ -20,5 +20,9 @@
 
 - Visual Studio 2015
 
+### 注意
+
+由于代码陈旧可能在编译时产生错误，请修改源文件编码格式后再做尝试。
+
 ### 许可证
 代码在[MIT许可证](https://github.com/EnvyJCD/Nova/blob/master/LICENSE)下发布。
